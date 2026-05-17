@@ -1,7 +1,7 @@
 # Machine-Learning
 # 🛒 Midterm Machine Learning — Customer Clustering
 
-## 👤 Identitas
+## Identitas
 
 | | |
 |---|---|
@@ -18,7 +18,7 @@ Merancang dan mengimplementasikan pipeline machine learning end-to-end untuk tug
 
 ---
 
-## 📂 Struktur Repository
+## Struktur Repository
 
 ```
 midterm-machine-learning-clustering/
@@ -30,7 +30,7 @@ midterm-machine-learning-clustering/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Dataset:** `clusteringmidterm.csv`  
 **Sumber:** Dataset kredit pelanggan (Credit Card Customer Behavior)
@@ -49,7 +49,7 @@ midterm-machine-learning-clustering/
 
 ---
 
-## 🔧 Pipeline End-to-End
+## Pipeline End-to-End
 
 ```
 Raw Data
@@ -94,7 +94,7 @@ Raw Data
 
 ---
 
-## 🤖 Model yang Digunakan
+## Model yang Digunakan
 
 | Model | Hyperparameter Tuning | Keterangan |
 |---|---|---|
@@ -104,7 +104,7 @@ Raw Data
 
 ---
 
-## 📈 Metrik Evaluasi
+## Metrik Evaluasi
 
 | Metrik | Arah | Keterangan |
 |---|---|---|
@@ -114,7 +114,7 @@ Raw Data
 
 ---
 
-## 🧭 Cara Menjalankan Notebook
+## Cara Menjalankan Notebook
 
 1. **Clone repository ini:**
    ```bash
@@ -144,16 +144,16 @@ Raw Data
 
 ---
 
-## 💡 Insight Hasil Clustering
+## Insight Hasil Clustering
 
 Dari hasil clustering, pelanggan terbagi ke dalam beberapa segmen utama:
 
 | Segmen | Karakteristik | Rekomendasi |
 |---|---|---|
-| 💎 Premium | Belanja tinggi, bayar penuh | Tawarkan reward premium |
-| 🛍️ Regular Shopper | Belanja rutin, pembayaran normal | Promo cashback regular |
-| ⚠️ Cash Advance Heavy | Sering tarik tunai | Edukasi finansial, monitoring |
-| 🔴 High Balance | Saldo tinggi, jarang bayar penuh | Penawaran cicilan restrukturisasi |
-| 😴 Low Activity | Penggunaan rendah | Reaktivasi dengan insentif |
+| Premium | Belanja tinggi, bayar penuh | Tawarkan reward premium |
+| Regular Shopper | Belanja rutin, pembayaran normal | Promo cashback regular |
+| Cash Advance Heavy | Sering tarik tunai | Edukasi finansial, monitoring |
+| High Balance | Saldo tinggi, jarang bayar penuh | Penawaran cicilan restrukturisasi |
+| Low Activity | Penggunaan rendah | Reaktivasi dengan insentif |
 
 ---
