@@ -1,5 +1,5 @@
 # Machine-Learning
-# 🛒 Midterm Machine Learning — Customer Clustering
+# Midterm Machine Learning — Customer Clustering
 
 ## Identitas
 
