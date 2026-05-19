@@ -1,4 +1,4 @@
-# 🎵 Midterm Machine Learning — Song Release Year Prediction (Regression)
+# Midterm Machine Learning — Song Release Year Prediction (Regression)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.x-orange)
@@ -7,13 +7,13 @@
 
 ---
 
-## 📌 Tujuan Proyek
+## Tujuan Proyek
 
 Membangun pipeline regresi end-to-end untuk **memprediksi tahun rilis lagu** berdasarkan fitur audio menggunakan algoritma machine learning.
 
 ---
 
-## 📂 Struktur Repository
+## Struktur Repository
 
 ```
 midterm-machine-learning/
@@ -28,7 +28,7 @@ midterm-machine-learning/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Properti       | Detail                                 |
 |----------------|----------------------------------------|
@@ -43,7 +43,7 @@ midterm-machine-learning/
 
 ---
 
-## 🔄 Alur Pipeline
+## Alur Pipeline
 
 ```
 Data Loading
@@ -67,7 +67,7 @@ Experiment Tracking (MLFlow)
 
 ---
 
-## 🤖 Model yang Digunakan
+## Model yang Digunakan
 
 | Model | Keterangan |
 |-------|-----------|
@@ -79,7 +79,7 @@ Experiment Tracking (MLFlow)
 
 ---
 
-## 📈 Hasil & Metrik Evaluasi
+## Hasil & Metrik Evaluasi
 
 | Model | RMSE ↓ | MAE ↓ | R² ↑ |
 |-------|--------|-------|------|
@@ -99,7 +99,7 @@ Experiment Tracking (MLFlow)
 
 ---
 
-## 🔍 Interpretasi dengan LIME
+## Interpretasi dengan LIME
 
 LIME (*Local Interpretable Model-agnostic Explanations*) digunakan untuk menjelaskan prediksi individual:
 - Fitur **hijau** → mendorong prediksi ke tahun yang lebih baru
@@ -108,7 +108,7 @@ LIME (*Local Interpretable Model-agnostic Explanations*) digunakan untuk menjela
 
 ---
 
-## ⚡ Hyperparameter Tuning (Optuna)
+## Hyperparameter Tuning (Optuna)
 
 Optuna digunakan untuk mencari hyperparameter optimal pada Random Forest:
 
@@ -124,7 +124,7 @@ Optuna digunakan untuk mencari hyperparameter optimal pada Random Forest:
 
 ---
 
-## 📡 Experiment Tracking (MLFlow)
+## Experiment Tracking (MLFlow)
 
 Semua eksperimen di-log ke MLFlow:
 - **Parameters:** hyperparameter model, jumlah fitur
@@ -139,7 +139,7 @@ mlflow ui
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 1. **Clone repository:**
 ```bash
@@ -169,7 +169,7 @@ mlflow ui
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 ```
 scikit-learn
@@ -185,7 +185,7 @@ jupyter
 
 ---
 
-## 👤 Identitas
+## Identitas
 
 | | |
 |---|---|
@@ -196,7 +196,7 @@ jupyter
 
 ---
 
-## 📝 Catatan
+## Catatan
 
 - Dataset besar (515k+ baris) — disarankan menggunakan GPU/Colab untuk training yang lebih cepat
 - Untuk hasil terbaik, coba tambahkan model XGBoost atau LightGBM
