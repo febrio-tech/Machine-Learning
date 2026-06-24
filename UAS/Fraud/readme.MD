@@ -4,9 +4,9 @@
 
 | Kategori | Detail |
 | :--- | :--- |
-| **Nama** | **Rafly Fasha Purnomo Putra** |
+| **Nama** | **Febrio Bagus Budianda** |
 | **Kelas** | **TK-46-GAB** |
-| **NIM** | **1103223050** |
+| **NIM** | **1103223223** |
 
 ---
 
